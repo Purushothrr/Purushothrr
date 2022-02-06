@@ -1,6 +1,9 @@
 apiversion: v1
 kind: Service
 metadata:
-
-  name: nginxsvc 
+  name: nginxsvc
+  labels:
+  app: nginxsvc
+  env: prod
+  namespace: prod
 spec: 
